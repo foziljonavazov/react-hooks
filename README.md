@@ -1,12 +1,76 @@
-# React + Vite
+# React Hooks Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a curated collection of custom React Hooks designed to simplify and enhance your React development experience.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Explore the live demo of these hooks in action:  
+[https://rainbow-dasik-0e63d9.netlify.app/](https://rainbow-dasik-0e63d9.netlify.app/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📦 A variety of reusable custom hooks for common patterns
+- 🛠️ Practical examples for each hook
+- ⚡ Clean, modern, and idiomatic React code
+- 💡 Great for learning and rapid prototyping
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/foziljonavazov/react-hooks.git
+cd react-hooks
+```
+
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Run the project locally:
+
+```bash
+npm start
+# or
+yarn start
+```
+
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Structure
+
+- `/src/hooks` - Custom hook implementations
+- `/src/components` - Example components utilizing the hooks
+- `/public` - Static files and index.html
+
+## Example Hooks
+
+Some of the hooks included (see `/src/hooks` for more):
+
+- `useLocalStorage` – Persist state to localStorage
+- `useFetch` – Fetch data from APIs with built-in state management
+- `useToggle` – Simple boolean toggle
+- `useEventListener` – Add event listeners in a React-friendly way
+- `useDebounce` – Debounce value changes for performance
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests for new hooks, improvements, or bug fixes.
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ by [foziljonavazov](https://github.com/foziljonavazov)
