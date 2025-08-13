@@ -5,7 +5,7 @@ This repository contains a curated collection of custom React Hooks designed to 
 ## Demo
 
 Explore the live demo of these hooks in action:  
-[https://react-ilmoqlari.netlify.app/](hhttps://react-ilmoqlari.netlify.app/)
+[https://react-ilmoqlari.netlify.app](https://react-ilmoqlari.netlify.app)
 
 ## Features
 
